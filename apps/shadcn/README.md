@@ -9,13 +9,13 @@ The color palette is a shared neutral grayscale - color customization is left to
 
 ## Style Characteristics
 
-| Style | Concept | Border Radius | Height | Text Size |
-|-------|---------|---------------|--------|-----------|
-| **Vega** | Neutral (default) | `rounded-md` | `h-9` | `text-sm` |
-| **Nova** | Modern | `rounded-lg` | `h-8` | `text-sm` |
-| **Maia** | Friendly | `rounded-4xl` (pill) | `h-9` | `text-sm` |
-| **Lyra** | Brutalist | `rounded-none` (sharp) | `h-8` | `text-xs` |
-| **Mira** | Compact | `rounded-md` | `h-7` | `text-xs` |
+| Style    | Concept           | Border Radius          | Height | Text Size |
+| -------- | ----------------- | ---------------------- | ------ | --------- |
+| **Vega** | Neutral (default) | `rounded-md`           | `h-9`  | `text-sm` |
+| **Nova** | Modern            | `rounded-lg`           | `h-8`  | `text-sm` |
+| **Maia** | Friendly          | `rounded-4xl` (pill)   | `h-9`  | `text-sm` |
+| **Lyra** | Brutalist         | `rounded-none` (sharp) | `h-8`  | `text-xs` |
+| **Mira** | Compact           | `rounded-md`           | `h-7`  | `text-xs` |
 
 ## Notes
 
