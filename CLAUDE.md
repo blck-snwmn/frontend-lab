@@ -51,7 +51,7 @@ apps/
 ## Linter/Formatter Rules
 
 | Tool     | Status    |
-|----------|-----------|
+| -------- | --------- |
 | oxlint   | Required  |
 | oxfmt    | Required  |
 | eslint   | FORBIDDEN |
@@ -62,6 +62,7 @@ Linting runs with `--type-aware --type-check --deny-warnings` (all warnings are 
 ## Verification Checklist
 
 Before committing, ensure:
+
 1. `bun run build` passes
 2. `bun run lint` passes
 3. `bun run fmt:check` passes
