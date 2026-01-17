@@ -12,11 +12,11 @@
     "ripple": "^0.2.193"
   },
   "devDependencies": {
-    "@ripple-ts/vite-plugin": "^0.2.193",
-    "@tailwindcss/vite": "^4.1.18",
-    "@types/node": "^25.0.3",
-    "tailwindcss": "^4.1.18",
-    "typescript": "^5.9.3",
-    "vite": "^7.3.1"
+    "@ripple-ts/vite-plugin": "0.2.196",
+    "@tailwindcss/vite": "4.1.18",
+    "@types/node": "25.0.9",
+    "tailwindcss": "4.1.18",
+    "typescript": "5.9.3",
+    "vite": "7.3.1"
   }
 }
