@@ -7,7 +7,7 @@
     "build": "bun --bun vite build",
     "preview": "bun --bun vite preview",
     "test": "vitest run",
-    "lint": "oxlint --type-aware --type-check --deny-warnings ."
+    "lint": "oxlint --type-aware --type-check --deny-warnings --ignore-pattern 'src/routeTree.gen.ts' ."
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.6",

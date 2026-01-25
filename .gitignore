@@ -33,6 +33,4 @@ logs
 .DS_Store
 Thumbs.db
 
-# Auto-generated
-**/routeTree.gen.ts
 
