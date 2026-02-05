@@ -13,6 +13,14 @@
         "typescript": "5.9.3",
       },
     },
+    "apps/bun-markdown": {
+      "name": "@frontend-lab/bun-markdown",
+      "version": "0.0.0",
+      "dependencies": {
+        "react": "^19.2.0",
+        "react-dom": "^19.2.0",
+      },
+    },
     "apps/react-bits": {
       "name": "@frontend-lab/react-bits",
       "version": "0.0.0",
@@ -391,6 +399,8 @@
     "@floating-ui/utils": ["@floating-ui/utils@0.2.10", "", {}, "sha512-aGTxbpbg8/b5JfU1HXSrbH3wXZuLPJcNEcZQFMxLs3oSzgtVu6nFPkbbGGUvBcUjKV2YyB9Wxxabo+HEH9tcRQ=="],
 
     "@fontsource-variable/inter": ["@fontsource-variable/inter@5.2.8", "", {}, "sha512-kOfP2D+ykbcX/P3IFnokOhVRNoTozo5/JxhAIVYLpea/UBmCQ/YWPBfWIDuBImXX/15KH+eKh4xpEUyS2sQQGQ=="],
+
+    "@frontend-lab/bun-markdown": ["@frontend-lab/bun-markdown@workspace:apps/bun-markdown"],
 
     "@frontend-lab/react-bits": ["@frontend-lab/react-bits@workspace:apps/react-bits"],
 

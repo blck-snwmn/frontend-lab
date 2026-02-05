@@ -1,0 +1,22 @@
+{
+  "name": "@frontend-lab/bun-markdown",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch src/index.tsx",
+    "start": "bun src/index.tsx",
+    "build": "tsc -b",
+    "lint": "oxlint --type-aware --type-check --deny-warnings ."
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.8",
+    "@types/react-dom": "19.2.3",
+    "bun-types": "1.3.8",
+    "typescript": "5.9.3"
+  }
+}
