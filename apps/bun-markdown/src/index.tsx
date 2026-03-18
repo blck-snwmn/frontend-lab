@@ -7,7 +7,7 @@ const stylesFile = new URL("./styles.css", import.meta.url);
 async function loadAssets() {
   const [markdown, styles] = await Promise.all([
     Bun.file(markdownFile).text(),
-    Bun.file(stylesFile).text()
+    Bun.file(stylesFile).text(),
   ]);
 
   return { markdown, styles };
@@ -26,8 +26,8 @@ function App({ markdown }: AppProps) {
         <p className="eyebrow">Bun Markdown</p>
         <h1>Markdown to React</h1>
         <p>
-          Bun.markdown.react turns Markdown into React elements, then the server renders HTML.
-          Edit <code>src/content.md</code> to see changes.
+          Bun.markdown.react turns Markdown into React elements, then the server renders HTML. Edit{" "}
+          <code>src/content.md</code> to see changes.
         </p>
         <div className="tags">
           <span className="tag">Bun.markdown.react</span>
@@ -73,10 +73,10 @@ Bun.serve({
     const body = renderToString(<App markdown={markdown} />);
     return new Response(renderPage(body, styles), {
       headers: {
-        "Content-Type": "text/html; charset=utf-8"
-      }
+        "Content-Type": "text/html; charset=utf-8",
+      },
     });
-  }
+  },
 });
 
 console.log(`Server running at http://localhost:${port}`);

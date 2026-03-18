@@ -18,12 +18,11 @@ const markdown = "# Hello";
 const node = Bun.markdown.react(markdown);
 ```
 
-| Feature | Status |
-| --- | --- |
-| GFM | OK |
-| React output | OK |
+| Feature      | Status |
+| ------------ | ------ |
+| GFM          | OK     |
+| React output | OK     |
 
 - [x] Markdown to React
 - [x] Server-side render
 - [ ] Client-side enhancements
-
