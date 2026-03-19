@@ -1,4 +1,3 @@
-import * as React from "react";
 import { renderToString } from "react-dom/server";
 
 const markdownFile = new URL("./content.md", import.meta.url);
