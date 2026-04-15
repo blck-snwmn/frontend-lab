@@ -1,4 +1,10 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["local>blck-snwmn/renovate-config"]
+  "extends": ["local>blck-snwmn/renovate-config"],
+  "packageRules": [
+    {
+      "matchPackageNames": ["ripple", "@ripple-ts/**"],
+      "groupName": "ripple"
+    }
+  ]
 }
