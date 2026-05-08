@@ -7,7 +7,7 @@
     "dev": "bun --watch src/index.tsx",
     "start": "bun src/index.tsx",
     "build": "tsc -b",
-    "lint": "oxlint --type-aware --type-check --deny-warnings ."
+    "lint": "oxlint --config ../../.oxlintrc.json --deny-warnings ."
   },
   "dependencies": {
     "react": "^19.2.0",
