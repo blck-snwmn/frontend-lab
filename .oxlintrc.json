@@ -13,5 +13,9 @@
   "rules": {
     "no-non-null-assertion": "error",
     "ts-eslint-js/consistent-type-assertions": ["error", { "assertionStyle": "never" }]
-  }
+  },
+  "ignorePatterns": [
+    "**/*.ripple",
+    "**/routeTree.gen.ts"
+  ]
 }
