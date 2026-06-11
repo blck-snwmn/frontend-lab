@@ -4,15 +4,9 @@
     "typeAware": true,
     "typeCheck": true
   },
-  "jsPlugins": [
-    {
-      "name": "ts-eslint-js",
-      "specifier": "@typescript-eslint/eslint-plugin"
-    }
-  ],
   "rules": {
     "no-non-null-assertion": "error",
-    "ts-eslint-js/consistent-type-assertions": ["error", { "assertionStyle": "never" }]
+    "typescript/consistent-type-assertions": ["error", { "assertionStyle": "never" }]
   },
   "ignorePatterns": ["**/*.ripple", "**/routeTree.gen.ts"]
 }
