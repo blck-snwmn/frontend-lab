@@ -17,7 +17,7 @@
     "@typescript-eslint/eslint-plugin": "8.53.1",
     "oxfmt": "0.48.0",
     "oxlint": "1.69.0",
-    "oxlint-tsgolint": "0.22.1",
+    "oxlint-tsgolint": "0.23.0",
     "turbo": "2.9.16",
     "typescript": "5.9.3"
   },
