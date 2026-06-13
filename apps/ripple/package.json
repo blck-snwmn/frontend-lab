@@ -13,9 +13,9 @@
   },
   "devDependencies": {
     "@ripple-ts/vite-plugin": "0.2.216",
-    "@tailwindcss/vite": "4.1.18",
+    "@tailwindcss/vite": "4.3.0",
     "@types/node": "25.0.10",
-    "tailwindcss": "4.1.18",
+    "tailwindcss": "4.3.0",
     "typescript": "5.9.3",
     "vite": "7.3.5"
   }
