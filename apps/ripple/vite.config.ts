@@ -6,7 +6,7 @@ import { defineConfig } from "vite";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [
-    // @ts-expect-error ripple plugin type compatibility with vite version
+    // @ts-ignore ripple plugin type compatibility across vite versions
     ripple(),
     tailwindcss(),
   ],
