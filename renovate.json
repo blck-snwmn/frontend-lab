@@ -3,6 +3,10 @@
   "extends": ["local>blck-snwmn/renovate-config"],
   "packageRules": [
     {
+      "matchPackageNames": ["vite", "@vitejs/plugin-react"],
+      "groupName": "vite"
+    },
+    {
       "matchPackageNames": ["ripple", "@ripple-ts/**"],
       "groupName": "ripple"
     }
