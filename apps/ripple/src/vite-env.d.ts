@@ -1,9 +1,10 @@
 /// <reference types="vite/client" />
 
-declare module "*.ripple" {
-  // biome-ignore lint: ripple component type
-  const component: any;
-  export { component as App };
-  export { component as Counter };
+declare module "*.tsrx" {
+  import type { Component } from "ripple";
+
+  export const App: Component;
+  export const Counter: Component;
+  const component: Component;
   export default component;
 }
