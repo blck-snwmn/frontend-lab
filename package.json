@@ -16,7 +16,7 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "8.62.1",
     "oxfmt": "0.56.0",
-    "oxlint": "1.71.0",
+    "oxlint": "1.72.0",
     "oxlint-tsgolint": "0.24.0",
     "turbo": "2.10.2",
     "typescript": "6.0.3"
