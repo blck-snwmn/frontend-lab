@@ -12,7 +12,7 @@
     "ripple": "^0.3.0"
   },
   "devDependencies": {
-    "@ripple-ts/vite-plugin": "0.3.89",
+    "@ripple-ts/vite-plugin": "0.3.90",
     "@tailwindcss/vite": "4.3.2",
     "@types/node": "26.1.0",
     "tailwindcss": "4.3.2",
