@@ -71,7 +71,7 @@
         "ripple": "^0.3.0",
       },
       "devDependencies": {
-        "@ripple-ts/vite-plugin": "0.3.93",
+        "@ripple-ts/vite-plugin": "0.3.94",
         "@tailwindcss/vite": "4.3.2",
         "@types/node": "26.1.1",
         "tailwindcss": "4.3.2",
@@ -608,9 +608,9 @@
 
     "@oxlint/binding-win32-x64-msvc": ["@oxlint/binding-win32-x64-msvc@1.73.0", "", { "os": "win32", "cpu": "x64" }, "sha512-WaNRvh4f6zY9CvUQk2YoA1O90ieWrIklI84+HXFr9Isjz9CSESrdqo/RtIYt4Dll/cAchqGDMehfaZd0vqEFZw=="],
 
-    "@ripple-ts/adapter": ["@ripple-ts/adapter@0.3.93", "", {}, "sha512-zuPKynC6PTiwD3xOyNuiGEfrcTDvkxN/utI984K44+/kbdRu1eNIo6YJs32KQqwU7mOg9S322VVOvYKhcnWjRQ=="],
+    "@ripple-ts/adapter": ["@ripple-ts/adapter@0.3.94", "", {}, "sha512-t4BsHSrHgsJyjdBsIlLOtYmB3ce3vZFxJgK6fBu5HZ9mou1IhuMNgD+jvHWkjKgvVLRyoh7o9H4BBeydNhQxhg=="],
 
-    "@ripple-ts/vite-plugin": ["@ripple-ts/vite-plugin@0.3.93", "", { "dependencies": { "@ripple-ts/adapter": "0.3.93", "@tsrx/ripple": "0.1.38" }, "bin": { "ripple-preview": "src/bin/preview.js" } }, "sha512-x1Wod45aTx9jnFnEDhm25mBFElvTGgmnSwBXBYYcK7f1313DUbPE+3WoO9HByXkASqDWiNh5lYVauire+Oqujw=="],
+    "@ripple-ts/vite-plugin": ["@ripple-ts/vite-plugin@0.3.94", "", { "dependencies": { "@ripple-ts/adapter": "0.3.94", "@tsrx/ripple": "0.1.39" }, "bin": { "ripple-preview": "src/bin/preview.js" } }, "sha512-wKAnGriMKnP94yae6cIYt862/0J9WiGSfm2zuZ+tYftW3jTfX6bc/mRZEDWCuqlR8ZqVdr/Ym6EK9Ec+0vCGLQ=="],
 
     "@rolldown/binding-android-arm64": ["@rolldown/binding-android-arm64@1.1.4", "", { "os": "android", "cpu": "arm64" }, "sha512-EZLpf/8y7GXkkra90ML47kzik/GMP3EMcE9bPyHmRfxLC6z9+aW5A8poCsoxjrT5GfEcNAAvWwUHjvP1pUQkfw=="],
 
@@ -812,7 +812,7 @@
 
     "@tsrx/core": ["@tsrx/core@0.1.33", "", { "dependencies": { "@jridgewell/sourcemap-codec": "^1.5.5", "@noble/hashes": "^2.2.0", "@sveltejs/acorn-typescript": "^1.0.10", "@types/estree": "^1.0.8", "@types/estree-jsx": "^1.0.5", "acorn": "^8.16.0", "esrap": "^2.2.8", "is-reference": "^3.0.3", "magic-string": "^0.30.18", "zimmerframe": "^1.1.2" } }, "sha512-Djl0nwqYGdZiJHnMJBeyKUs05nErtDuLf1JoYNRvMlo49/80jZAtkpHGyrM/cnNCdhGWeQIccmENv7mOQ7sYNw=="],
 
-    "@tsrx/ripple": ["@tsrx/ripple@0.1.38", "", { "dependencies": { "@tsrx/core": "0.1.37", "esrap": "^2.2.8", "is-reference": "^3.0.3", "zimmerframe": "^1.1.2" } }, "sha512-BKUKKbFltA7myM8Wpy/b2rpz1HJeB/VChg2FRKOR9/5zDPtPzygtn9p+aVyKnvGsR3dMQfMF5GNFOhsD1JFGqA=="],
+    "@tsrx/ripple": ["@tsrx/ripple@0.1.39", "", { "dependencies": { "@tsrx/core": "0.1.38", "esrap": "^2.2.8", "is-reference": "^3.0.3", "zimmerframe": "^1.1.2" } }, "sha512-2pHheU/TaRxZMnWJano5c6b0qxEqWqdLy4hOeqxGHrsujIARqxKR3q73Cj+C3/6hqtzxBogxDGzEZc/AW+kuaQ=="],
 
     "@turbo/darwin-64": ["@turbo/darwin-64@2.10.4", "", { "os": "darwin", "cpu": "x64" }, "sha512-m1MUEI4MJ69r5CwfMYxmHi0H0rrgiYCBOp0tgBZ9x/YVvOb5uu/lRIDyDwdtH054R2yWeQaIigUGu6aCX9f8cA=="],
 
@@ -1836,7 +1836,7 @@
 
     "@ts-morph/common/minimatch": ["minimatch@10.1.1", "", { "dependencies": { "@isaacs/brace-expansion": "^5.0.0" } }, "sha512-enIvLvRAFZYXJzkCYG5RKmPfrFArdLv+R+lbQ53BmIMLIry74bjKzX6iHAm8WYamJkhSSEabrWN5D97XnKObjQ=="],
 
-    "@tsrx/ripple/@tsrx/core": ["@tsrx/core@0.1.37", "", { "dependencies": { "@jridgewell/sourcemap-codec": "^1.5.5", "@noble/hashes": "^2.2.0", "@sveltejs/acorn-typescript": "^1.0.10", "@types/estree": "^1.0.8", "@types/estree-jsx": "^1.0.5", "acorn": "^8.16.0", "esrap": "^2.2.8", "is-reference": "^3.0.3", "magic-string": "^0.30.18", "zimmerframe": "^1.1.2" } }, "sha512-slL2jcSqJ6nbsAA/dOAkp/1+QQiVViq54WilX7E/rJeBtFRMVBmmLM2q2HFLMu9IC1iJq8ch67fGsqmyYXsTBA=="],
+    "@tsrx/ripple/@tsrx/core": ["@tsrx/core@0.1.38", "", { "dependencies": { "@jridgewell/sourcemap-codec": "^1.5.5", "@noble/hashes": "^2.2.0", "@sveltejs/acorn-typescript": "^1.0.10", "@types/estree": "^1.0.8", "@types/estree-jsx": "^1.0.5", "acorn": "^8.16.0", "esrap": "^2.2.8", "is-reference": "^3.0.3", "magic-string": "^0.30.18", "zimmerframe": "^1.1.2" } }, "sha512-yQRYnWEkFDflXBe62qkIqskf2yVrPvC8HmXZXvmrPYzIne5AGNFDVw4VdE0C8iRr2GTW9s7c97goee359c56+g=="],
 
     "@typescript-eslint/parser/@typescript-eslint/scope-manager": ["@typescript-eslint/scope-manager@8.53.1", "", { "dependencies": { "@typescript-eslint/types": "8.53.1", "@typescript-eslint/visitor-keys": "8.53.1" } }, "sha512-Lu23yw1uJMFY8cUeq7JlrizAgeQvWugNQzJp8C3x8Eo5Jw5Q2ykMdiiTB9vBVOOUBysMzmRRmUfwFrZuI2C4SQ=="],
 
