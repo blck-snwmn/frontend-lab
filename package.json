@@ -14,7 +14,6 @@
     "typecheck": "tsc --build --noEmit"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "8.63.0",
     "oxfmt": "0.58.0",
     "oxlint": "1.73.0",
     "oxlint-tsgolint": "0.24.0",
