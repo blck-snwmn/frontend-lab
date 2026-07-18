@@ -70,7 +70,7 @@
         "ripple": "^0.3.0",
       },
       "devDependencies": {
-        "@ripple-ts/vite-plugin": "0.3.95",
+        "@ripple-ts/vite-plugin": "0.3.97",
         "@tailwindcss/vite": "4.3.2",
         "@types/node": "26.1.1",
         "tailwindcss": "4.3.2",
@@ -581,9 +581,9 @@
 
     "@oxlint/binding-win32-x64-msvc": ["@oxlint/binding-win32-x64-msvc@1.74.0", "", { "os": "win32", "cpu": "x64" }, "sha512-VTC9IYTIMrVUk/i6Ms1ohzzDKZFkWn0KU2OBbPBzgmVZ2V30165T/zK4LztTr0Xgp9fZ1qQZ1rsZAu/rEmySlA=="],
 
-    "@ripple-ts/adapter": ["@ripple-ts/adapter@0.3.95", "", {}, "sha512-u+wK/ZLUH1RZJop0VKkDV76q70vZDkzcOmPY+CpCUwmeZt8dVo2VYiD9xFan6AL+uhF2BcBBovkKWNcJ0JkkvQ=="],
+    "@ripple-ts/adapter": ["@ripple-ts/adapter@0.3.97", "", {}, "sha512-l2StHuGXOIxfugwxvJXB1BIlqUKizXi9QF9Gdl0/nKQZm0KqZoYeTL0TLQN5PshKJ/z+efbL6Sd7RVRTgrMqaA=="],
 
-    "@ripple-ts/vite-plugin": ["@ripple-ts/vite-plugin@0.3.95", "", { "dependencies": { "@ripple-ts/adapter": "0.3.95", "@tsrx/ripple": "0.1.39" }, "bin": { "ripple-preview": "src/bin/preview.js" } }, "sha512-R8TQ9C9YoVpnDE45FduWGCX6ok1jJXr3/hfQMm4VCvEpTmcyXmxmgO7KrqnT+Ox3rTsXt+QLa5PQVxTCqzjnzw=="],
+    "@ripple-ts/vite-plugin": ["@ripple-ts/vite-plugin@0.3.97", "", { "dependencies": { "@ripple-ts/adapter": "0.3.97", "@tsrx/ripple": "0.1.41" }, "bin": { "ripple-preview": "src/bin/preview.js" } }, "sha512-95yrLvqHuFP8CvmtGa7XYsPB9YEh7OROsO4mmDJhlqnpHiuSNxYH86og3+mWtaW7yY3yHLiF4bLGIjPFKda2tg=="],
 
     "@rolldown/binding-android-arm64": ["@rolldown/binding-android-arm64@1.1.4", "", { "os": "android", "cpu": "arm64" }, "sha512-EZLpf/8y7GXkkra90ML47kzik/GMP3EMcE9bPyHmRfxLC6z9+aW5A8poCsoxjrT5GfEcNAAvWwUHjvP1pUQkfw=="],
 
@@ -785,7 +785,7 @@
 
     "@tsrx/core": ["@tsrx/core@0.1.33", "", { "dependencies": { "@jridgewell/sourcemap-codec": "^1.5.5", "@noble/hashes": "^2.2.0", "@sveltejs/acorn-typescript": "^1.0.10", "@types/estree": "^1.0.8", "@types/estree-jsx": "^1.0.5", "acorn": "^8.16.0", "esrap": "^2.2.8", "is-reference": "^3.0.3", "magic-string": "^0.30.18", "zimmerframe": "^1.1.2" } }, "sha512-Djl0nwqYGdZiJHnMJBeyKUs05nErtDuLf1JoYNRvMlo49/80jZAtkpHGyrM/cnNCdhGWeQIccmENv7mOQ7sYNw=="],
 
-    "@tsrx/ripple": ["@tsrx/ripple@0.1.39", "", { "dependencies": { "@tsrx/core": "0.1.38", "esrap": "^2.2.8", "is-reference": "^3.0.3", "zimmerframe": "^1.1.2" } }, "sha512-2pHheU/TaRxZMnWJano5c6b0qxEqWqdLy4hOeqxGHrsujIARqxKR3q73Cj+C3/6hqtzxBogxDGzEZc/AW+kuaQ=="],
+    "@tsrx/ripple": ["@tsrx/ripple@0.1.41", "", { "dependencies": { "@tsrx/core": "0.1.40", "esrap": "^2.2.8", "is-reference": "^3.0.3", "zimmerframe": "^1.1.2" } }, "sha512-ZMpnAEkM1Tv8wOaHz4iFi3MyitlQoTOn2Gm6DvKw+yPu0gLxnYeacIMyh8Yse+mJITlhVOf0Kv8EMhnWZP96gw=="],
 
     "@turbo/darwin-64": ["@turbo/darwin-64@2.10.5", "", { "os": "darwin", "cpu": "x64" }, "sha512-ENvPwy3x5yS7MwNYHeWjqOBXkwIMp39Pd+/zXC6PoiNzF8EIvvLZOZZ+ny6L9x4WgS5vxUii2LM5gM+zjPdnWw=="],
 
@@ -1731,7 +1731,7 @@
 
     "@tanstack/start-plugin-core/tinyglobby": ["tinyglobby@0.2.15", "", { "dependencies": { "fdir": "^6.5.0", "picomatch": "^4.0.3" } }, "sha512-j2Zq4NyQYG5XMST4cbs02Ak8iJUdxRM0XI5QyxXuZOzKOINmWurp3smXu3y5wDcJrptwpSjgXHzIQxR0omXljQ=="],
 
-    "@tsrx/ripple/@tsrx/core": ["@tsrx/core@0.1.38", "", { "dependencies": { "@jridgewell/sourcemap-codec": "^1.5.5", "@noble/hashes": "^2.2.0", "@sveltejs/acorn-typescript": "^1.0.10", "@types/estree": "^1.0.8", "@types/estree-jsx": "^1.0.5", "acorn": "^8.16.0", "esrap": "^2.2.8", "is-reference": "^3.0.3", "magic-string": "^0.30.18", "zimmerframe": "^1.1.2" } }, "sha512-yQRYnWEkFDflXBe62qkIqskf2yVrPvC8HmXZXvmrPYzIne5AGNFDVw4VdE0C8iRr2GTW9s7c97goee359c56+g=="],
+    "@tsrx/ripple/@tsrx/core": ["@tsrx/core@0.1.40", "", { "dependencies": { "@jridgewell/sourcemap-codec": "^1.5.5", "@noble/hashes": "^2.2.0", "@sveltejs/acorn-typescript": "^1.0.10", "@types/estree": "^1.0.8", "@types/estree-jsx": "^1.0.5", "acorn": "^8.16.0", "esrap": "^2.2.8", "is-reference": "^3.0.3", "magic-string": "^0.30.18", "zimmerframe": "^1.1.2" } }, "sha512-JLvoVchSw3qVgrMj6hEPqhF4iojAasENLuyohWkKoF9k6Sk3nFR3puBE2++iL67g2RuvhQ7sLfKQg2VUxcdGUQ=="],
 
     "anymatch/picomatch": ["picomatch@2.3.1", "", {}, "sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA=="],
 
