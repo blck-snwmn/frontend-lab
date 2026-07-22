@@ -13,10 +13,6 @@
     "lint": {
       "dependsOn": [],
       "inputs": ["src/**", "**/*.ts", "**/*.tsx"]
-    },
-    "typecheck": {
-      "dependsOn": ["^build"],
-      "inputs": ["src/**", "**/*.ts", "**/*.tsx"]
     }
   }
 }

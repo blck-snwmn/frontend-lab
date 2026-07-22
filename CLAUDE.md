@@ -26,9 +26,6 @@ bun run lint -- --fix       # auto-fix
 # Formatting (oxfmt only - Prettier is forbidden)
 bun run fmt                 # format all
 bun run fmt:check           # check only
-
-# Type checking
-bun run typecheck
 ```
 
 ## Architecture
@@ -57,7 +54,8 @@ apps/
 | eslint   | FORBIDDEN |
 | prettier | FORBIDDEN |
 
-Linting runs with `--type-aware --type-check --deny-warnings` (all warnings are errors).
+Linting uses the root Oxlint configuration with `typeAware` and `typeCheck` enabled, plus
+`--deny-warnings` (all warnings are errors).
 
 ## Verification Checklist
 
