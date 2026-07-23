@@ -70,7 +70,7 @@
         "ripple": "^0.3.0",
       },
       "devDependencies": {
-        "@ripple-ts/vite-plugin": "0.3.103",
+        "@ripple-ts/vite-plugin": "0.3.104",
         "@tailwindcss/vite": "4.3.3",
         "@types/node": "26.1.1",
         "tailwindcss": "4.3.3",
@@ -581,9 +581,9 @@
 
     "@oxlint/binding-win32-x64-msvc": ["@oxlint/binding-win32-x64-msvc@1.74.0", "", { "os": "win32", "cpu": "x64" }, "sha512-VTC9IYTIMrVUk/i6Ms1ohzzDKZFkWn0KU2OBbPBzgmVZ2V30165T/zK4LztTr0Xgp9fZ1qQZ1rsZAu/rEmySlA=="],
 
-    "@ripple-ts/adapter": ["@ripple-ts/adapter@0.3.103", "", {}, "sha512-l1e64mhkJtvaKtG+32D0dlatl29i5eIib/prf7O0KfaeB4LP9AHsORJyRguSmNcupDNv4OSoisHGU4G3HjNbbQ=="],
+    "@ripple-ts/adapter": ["@ripple-ts/adapter@0.3.104", "", {}, "sha512-4wMwi6YpE0z61Qh2imbF8suh/q2JH3ZCMOOte4qHlHzha/p/0MCcnXIj7fmZ7chA/fKnfKaMCB7wkxT2Jx7phw=="],
 
-    "@ripple-ts/vite-plugin": ["@ripple-ts/vite-plugin@0.3.103", "", { "dependencies": { "@ripple-ts/adapter": "0.3.103", "@tsrx/ripple": "0.1.45" }, "bin": { "ripple-preview": "src/bin/preview.js" } }, "sha512-jIX5GWNHC+vnEiHqeJg+egBQmMf0C/x3OL1UCts+cXis50aRqAmXLlAbaefoYSsVDLXELAMyTq4LgFiQY5+wwA=="],
+    "@ripple-ts/vite-plugin": ["@ripple-ts/vite-plugin@0.3.104", "", { "dependencies": { "@ripple-ts/adapter": "0.3.104", "@tsrx/ripple": "0.1.45" }, "bin": { "ripple-preview": "src/bin/preview.js" } }, "sha512-CsLfDvUxYSSTALuw7Kvzvu2abTFrnXaX+GbD7yTTO+eRSehQ/TBoA/o9X+V85yR8I6wLOdHtx4wKqQ1yIa2ATw=="],
 
     "@rolldown/binding-android-arm64": ["@rolldown/binding-android-arm64@1.1.5", "", { "os": "android", "cpu": "arm64" }, "sha512-lZg8fqIv2v7FF237bwMgzGZEJvGL79/s5knJ/i6FmsGF4XXlzccZ4jb+TrFIxtSSxFtIpdsgrPZeMk1I9AFcyQ=="],
 
