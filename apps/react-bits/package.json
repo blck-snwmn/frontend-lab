@@ -10,10 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "motion": "^12.16.0",
-    "ogl": "^1.0.11",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "motion": "12.42.2",
+    "ogl": "1.0.11",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
   },
   "devDependencies": {
     "@tailwindcss/vite": "4.3.3",
