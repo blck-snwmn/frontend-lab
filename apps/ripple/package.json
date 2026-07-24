@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "ripple": "^0.3.0"
+    "ripple": "0.3.110"
   },
   "devDependencies": {
     "@ripple-ts/vite-plugin": "0.3.106",
