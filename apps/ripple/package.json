@@ -9,10 +9,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "ripple": "0.3.110"
+    "ripple": "0.3.112"
   },
   "devDependencies": {
-    "@ripple-ts/vite-plugin": "0.3.110",
+    "@ripple-ts/vite-plugin": "0.3.112",
     "@tailwindcss/vite": "4.3.3",
     "@types/node": "26.1.1",
     "tailwindcss": "4.3.3",
