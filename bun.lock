@@ -234,7 +234,7 @@
         "@types/react": "19.2.17",
         "@types/react-dom": "19.2.3",
         "@vitejs/plugin-react": "6.0.4",
-        "jsdom": "30.0.0",
+        "jsdom": "30.0.1",
         "typescript": "7.0.2",
         "vite": "8.1.5",
         "vitest": "4.1.10",
@@ -1201,7 +1201,7 @@
 
     "js-yaml": ["js-yaml@4.1.1", "", { "dependencies": { "argparse": "^2.0.1" }, "bin": { "js-yaml": "bin/js-yaml.js" } }, "sha512-qQKT4zQxXl8lLwBtHMWwaTcGfFOZviOJet3Oy/xmGk2gZH677CJM9EvtfdSkgWcATZhj/55JZ0rmy3myCT5lsA=="],
 
-    "jsdom": ["jsdom@30.0.0", "", { "dependencies": { "@asamuzakjp/css-color": "^6.0.5", "@asamuzakjp/dom-selector": "^8.2.5", "@bramus/specificity": "^2.4.2", "@csstools/css-syntax-patches-for-csstree": "^1.1.6", "@exodus/bytes": "^1.15.1", "css-tree": "^3.2.1", "data-urls": "^7.0.0", "decimal.js": "^10.6.0", "html-encoding-sniffer": "^6.0.0", "is-potential-custom-element-name": "^1.0.1", "lru-cache": "^11.5.2", "parse5": "^8.0.1", "saxes": "^6.0.0", "symbol-tree": "^3.2.4", "tough-cookie": "^6.0.2", "undici": "^8.7.0", "w3c-xmlserializer": "^5.0.0", "webidl-conversions": "^8.0.1", "whatwg-mimetype": "^5.0.0", "whatwg-url": "^17.1.0", "xml-name-validator": "^5.0.0" }, "peerDependencies": { "canvas": "^3.2.3" }, "optionalPeers": ["canvas"] }, "sha512-JQHfRGmmKmaZoUAvIgff5jjG/0SzTQlGz8c7t72KzBzo8ZULEjAjnYE0sNwBOUA4QtWwYE2xoYitg8NFsmiYxA=="],
+    "jsdom": ["jsdom@30.0.1", "", { "dependencies": { "@asamuzakjp/css-color": "^6.0.5", "@asamuzakjp/dom-selector": "^8.3.0", "@bramus/specificity": "^2.4.2", "@csstools/css-syntax-patches-for-csstree": "^1.1.7", "@exodus/bytes": "^1.15.1", "css-tree": "^3.2.1", "data-urls": "^7.0.0", "decimal.js": "^10.6.0", "html-encoding-sniffer": "^6.0.0", "is-potential-custom-element-name": "^1.0.1", "lru-cache": "^11.5.2", "parse5": "^8.0.1", "saxes": "^6.0.0", "symbol-tree": "^3.2.4", "tough-cookie": "^6.0.2", "undici": "^8.9.0", "w3c-xmlserializer": "^5.0.0", "webidl-conversions": "^8.0.1", "whatwg-mimetype": "^5.0.0", "whatwg-url": "^17.1.0", "xml-name-validator": "^5.0.0" }, "peerDependencies": { "canvas": "^3.2.3" }, "optionalPeers": ["canvas"] }, "sha512-52v7mUVUfNQVYYqE1lcdaymWL0njO7lTLUog6ZvW2U5KsbiLk/GnZlVJ+qx0xfNJZ6Gn+KSpPNE52vurbxZwrA=="],
 
     "jsesc": ["jsesc@3.1.0", "", { "bin": { "jsesc": "bin/jsesc" } }, "sha512-/sM3dO2FOzXjKQhJuo0Q173wf2KOo8t4I8vHy6lF9poUp7bKT0/NHE8fPX23PwfhnykfqnC2xRxOnVw5XuGIaA=="],
 
@@ -1301,7 +1301,7 @@
 
     "nf3": ["nf3@0.3.22", "", {}, "sha512-NOcqlHu22X1rUakd0SrqllP8kb3LWFmSAi1svTxaKxz+yB604xlaOmUfI3oO+RkODvaocKDDy8bgthnZL8hrkw=="],
 
-    "nitro": ["nitro-nightly@3.0.1-20260722-224121-77b77ffb", "", { "dependencies": { "consola": "^3.4.2", "crossws": "^0.4.10", "db0": "^0.3.4", "env-runner": "^0.1.16", "h3": "^2.0.1-rc.25", "h3-rules": "^0.1.0", "hookable": "^6.1.1", "nf3": "^0.3.22", "ocache": "^0.2.0", "ofetch": "^2.0.0-alpha.3", "ohash": "^2.0.11", "rolldown": "^1.2.0", "rou3": "^0.9.1", "srvx": "^0.11.22", "unenv": "^2.0.0-rc.24", "unstorage": "^2.0.0-alpha.7" }, "peerDependencies": { "@vercel/queue": "^0.4.0", "dotenv": "*", "giget": "*", "jiti": "^2.7.0", "rollup": "^4.62.2", "vite": "^7 || ^8", "xml2js": "^0.6.2", "zephyr-agent": "^1.1.2" }, "optionalPeers": ["@vercel/queue", "dotenv", "giget", "jiti", "rollup", "vite", "xml2js", "zephyr-agent"], "bin": { "nitro": "dist/cli/index.mjs" } }, "sha512-29DHcZ8+KRozWOq9VrEyBMIzx1jJVv9fAeHDiQkiaS9I9fT5FAYmofwAeOYT6pgg31unbLVGvDkcQ9U3mIxvFA=="],
+    "nitro": ["nitro-nightly@3.0.1-20260731-205209-52abde8a", "", { "dependencies": { "consola": "^3.4.2", "crossws": "^0.4.10", "db0": "^0.3.4", "env-runner": "^0.1.16", "h3": "^2.0.1-rc.25", "h3-rules": "^0.1.0", "hookable": "^6.1.1", "nf3": "^0.3.22", "ocache": "^0.2.0", "ofetch": "^2.0.0-alpha.3", "ohash": "^2.0.11", "rolldown": "^1.2.0", "rou3": "^0.9.1", "srvx": "^0.11.22", "unenv": "^2.0.0-rc.24", "unstorage": "^2.0.0-alpha.7" }, "peerDependencies": { "@vercel/queue": "^0.4.0", "dotenv": "*", "giget": "*", "jiti": "^2.7.0", "rollup": "^4.62.2", "vite": "^7 || ^8", "xml2js": "^0.6.2", "zephyr-agent": "^1.1.2" }, "optionalPeers": ["@vercel/queue", "dotenv", "giget", "jiti", "rollup", "vite", "xml2js", "zephyr-agent"], "bin": { "nitro": "dist/cli/index.mjs" } }, "sha512-KI1rwOJPgD0U57mE+1AefoEPjd+aJPJ4GCTLym0cXyfBBi8JtVsHmtB/4D3g1RaDwntjoz8H5nWnWGg7agYnuA=="],
 
     "node-releases": ["node-releases@2.0.27", "", {}, "sha512-nmh3lCkYZ3grZvqcCH+fjmQ7X+H0OeZgP40OierEaAptX4XofMh5kwNbWh7lBduUzCcV/8kZ+NDLCwm2iorIlA=="],
 
