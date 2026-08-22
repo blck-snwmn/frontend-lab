@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "oxfmt": "0.63.0",
-    "oxlint": "1.78.0",
+    "oxlint": "1.79.0",
     "oxlint-tsgolint": "7.0.2001",
     "turbo": "2.10.11",
     "typescript": "7.0.2"
