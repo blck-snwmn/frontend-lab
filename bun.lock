@@ -67,10 +67,10 @@
     "apps/ripple": {
       "name": "@frontend-lab/ripple",
       "dependencies": {
-        "ripple": "0.3.123",
+        "ripple": "0.3.124",
       },
       "devDependencies": {
-        "@ripple-ts/vite-plugin": "0.3.123",
+        "@ripple-ts/vite-plugin": "0.3.124",
         "@tailwindcss/vite": "4.3.3",
         "@types/node": "26.2.0",
         "tailwindcss": "4.3.3",
@@ -529,9 +529,9 @@
 
     "@oxlint/binding-win32-x64-msvc": ["@oxlint/binding-win32-x64-msvc@1.79.0", "", { "os": "win32", "cpu": "x64" }, "sha512-mEelcCMMBS57sIXh2veGMNy+pQwuGtcMxHxGIZWQ5Ba9pJ5jCCUFOZB9E2JhBaxGsURe+WGe0zJp4RVre52gpQ=="],
 
-    "@ripple-ts/adapter": ["@ripple-ts/adapter@0.3.123", "", {}, "sha512-o2fSEQGNbdWzOpsWV3V6ISrrHu5Avm3D2scTLdSaOJ7X8IgLj0VfWYgqFoNFVkebMbOgP/CUWq//1T/Zhuqqng=="],
+    "@ripple-ts/adapter": ["@ripple-ts/adapter@0.3.124", "", {}, "sha512-65D9EebYLI511fqJl/pyV3GsbtNy1bijP2ZJT4qAyaeyrTB03mgBpwbAOyleDuFgZot1wi5ujjnN3FQIvuwXLg=="],
 
-    "@ripple-ts/vite-plugin": ["@ripple-ts/vite-plugin@0.3.123", "", { "dependencies": { "@ripple-ts/adapter": "0.3.123", "@tsrx/core": "0.1.60", "@tsrx/ripple": "0.1.61" }, "bin": { "ripple-preview": "src/bin/preview.js" } }, "sha512-IcAigwB2tWiFIRyDjf6JoWf/MMWM0klQgQ209RoWogIMLRLEWzB2Twv078mcso+91dC7PQwwP274SrE6Hp5HxA=="],
+    "@ripple-ts/vite-plugin": ["@ripple-ts/vite-plugin@0.3.124", "", { "dependencies": { "@ripple-ts/adapter": "0.3.124", "@tsrx/core": "0.1.60", "@tsrx/ripple": "0.1.61" }, "bin": { "ripple-preview": "src/bin/preview.js" } }, "sha512-iT+syXvifatlsqeAdWzPxpB1zCDJLr6IIE8pVtEciV8uDAkHedWTPzoZgAjSjuLLGLr4Y59mkhXUoFR7zED0Jw=="],
 
     "@rolldown/binding-android-arm-eabi": ["@rolldown/binding-android-arm-eabi@1.2.5", "", { "os": "android", "cpu": "arm" }, "sha512-DLe/i+l8ynIBY7XEQ191TeZvCoowIGa18R+dIV30GW7DiOtp74i/xX8hs8GUjW5ARV7VZuie3d6AumSmCwbeRA=="],
 
@@ -1307,7 +1307,7 @@
 
     "reusify": ["reusify@1.1.0", "", {}, "sha512-g6QUff04oZpHs0eG5p83rFLhHeV00ug/Yf9nZM6fLeUrPguBTkTQOdpAWWspMh55TZfVQDPaN3NQJfbVRAxdIw=="],
 
-    "ripple": ["ripple@0.3.123", "", { "dependencies": { "@tsrx/core": "0.1.60", "@tsrx/ripple": "0.1.61", "clsx": "^2.1.1", "devalue": "^5.8.1", "esm-env": "^1.2.2" } }, "sha512-tYcArlmOtzkM9uSuPHhJ44yYzCN83XeAmhHE+ci5B+HHoaKDIqJNXCc//IcLDjTuKT3qbtDE0ntgtimpg2gwGQ=="],
+    "ripple": ["ripple@0.3.124", "", { "dependencies": { "@tsrx/core": "0.1.60", "@tsrx/ripple": "0.1.61", "clsx": "^2.1.1", "devalue": "^5.8.1", "esm-env": "^1.2.2" } }, "sha512-qIE+3FNsIuAFZpgSv4YewL1Tt1DtLho8Eh47P2Bx3iKvraS14GqPmhWblAr4UkR1Q0Bggv2DolfIDIkmJeZafg=="],
 
     "rolldown": ["rolldown@1.2.5", "", { "dependencies": { "@oxc-project/types": "=0.146.0", "@rolldown/pluginutils": "^1.0.0" }, "optionalDependencies": { "@rolldown/binding-android-arm-eabi": "1.2.5", "@rolldown/binding-android-arm64": "1.2.5", "@rolldown/binding-darwin-arm64": "1.2.5", "@rolldown/binding-darwin-x64": "1.2.5", "@rolldown/binding-freebsd-x64": "1.2.5", "@rolldown/binding-linux-arm-gnueabihf": "1.2.5", "@rolldown/binding-linux-arm64-gnu": "1.2.5", "@rolldown/binding-linux-arm64-musl": "1.2.5", "@rolldown/binding-linux-ppc64-gnu": "1.2.5", "@rolldown/binding-linux-s390x-gnu": "1.2.5", "@rolldown/binding-linux-x64-gnu": "1.2.5", "@rolldown/binding-linux-x64-musl": "1.2.5", "@rolldown/binding-openharmony-arm64": "1.2.5", "@rolldown/binding-win32-arm64-msvc": "1.2.5", "@rolldown/binding-win32-x64-msvc": "1.2.5" }, "bin": { "rolldown": "./bin/cli.mjs" } }, "sha512-VD2IE5PUG4Oj8zz2VGykiYd5wbnjdIiSsNQb8Qu5B+noEp+A78mu2iVvpp27g8es14Tk9rofNs5Tku9iQCS4fA=="],
 
