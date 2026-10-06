@@ -87,7 +87,7 @@
         "@tailwindcss/vite": "4.3.3",
         "class-variance-authority": "0.7.1",
         "clsx": "2.1.1",
-        "lucide-react": "1.49.0",
+        "lucide-react": "1.51.0",
         "react": "19.3.0",
         "react-dom": "19.3.0",
         "shadcn": "4.21.1",
@@ -113,7 +113,7 @@
         "@tailwindcss/vite": "4.3.3",
         "class-variance-authority": "0.7.1",
         "clsx": "2.1.1",
-        "lucide-react": "1.49.0",
+        "lucide-react": "1.51.0",
         "react": "19.3.0",
         "react-dom": "19.3.0",
         "shadcn": "4.21.1",
@@ -139,7 +139,7 @@
         "@tailwindcss/vite": "4.3.3",
         "class-variance-authority": "0.7.1",
         "clsx": "2.1.1",
-        "lucide-react": "1.49.0",
+        "lucide-react": "1.51.0",
         "react": "19.3.0",
         "react-dom": "19.3.0",
         "shadcn": "4.21.1",
@@ -165,7 +165,7 @@
         "@tailwindcss/vite": "4.3.3",
         "class-variance-authority": "0.7.1",
         "clsx": "2.1.1",
-        "lucide-react": "1.49.0",
+        "lucide-react": "1.51.0",
         "react": "19.3.0",
         "react-dom": "19.3.0",
         "shadcn": "4.21.1",
@@ -191,7 +191,7 @@
         "@tailwindcss/vite": "4.3.3",
         "class-variance-authority": "0.7.1",
         "clsx": "2.1.1",
-        "lucide-react": "1.49.0",
+        "lucide-react": "1.51.0",
         "react": "19.3.0",
         "react-dom": "19.3.0",
         "shadcn": "4.21.1",
@@ -219,7 +219,7 @@
         "@tanstack/react-router-ssr-query": "1.167.3",
         "@tanstack/react-start": "1.168.60",
         "@tanstack/router-plugin": "1.168.42",
-        "lucide-react": "1.49.0",
+        "lucide-react": "1.51.0",
         "nitro": "npm:nitro-nightly@latest",
         "react": "19.3.0",
         "react-dom": "19.3.0",
@@ -1137,7 +1137,7 @@
 
     "lru-cache": ["lru-cache@11.5.2", "", {}, "sha512-4pfM1Ff0x50o0tQwb5ucw/RzNyD0/YJME6IVcStalZuMWxdt3sR3huStTtxz4PUmvZfRguvDejasvQ2kifR11g=="],
 
-    "lucide-react": ["lucide-react@1.49.0", "", { "peerDependencies": { "@types/react": "*", "react": "^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0" }, "optionalPeers": ["@types/react"] }, "sha512-ApfaNM4/7jBrVopqLJ84Jz8TMQ1Q1JeZ1PmKh25aeS3E1FTVcMkSh1bEQB7dfzdIrwXRP8p3z4AJjTIHHb5IIA=="],
+    "lucide-react": ["lucide-react@1.51.0", "", { "peerDependencies": { "@types/react": "*", "react": "^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0" }, "optionalPeers": ["@types/react"] }, "sha512-9929jimol5y7VbXUlVKcgURMSeIxFJB7dtWCkRAaNnF7KiCRkSkhmqWPUmAmUFYPezNawFk6qvz3Mu0gEnfI4g=="],
 
     "lyra": ["lyra@workspace:apps/shadcn/lyra"],
 
@@ -1189,7 +1189,7 @@
 
     "nf3": ["nf3@0.4.0", "", {}, "sha512-L0FZsuKjdfIo6bwPWxSkLH/147YLHnnFFW58JfITvZsgkmS2eX7e3RuiUpoeH+9TQyDOz5LO1DkDeBiajbI2/w=="],
 
-    "nitro": ["nitro-nightly@3.0.1-20261004-132833-c7bec880", "", { "dependencies": { "consola": "^3.4.2", "crossws": "^0.4.12", "db0": "^0.4.1", "env-runner": "^0.3.3", "h3": "^2.0.1", "nf3": "^0.4.0", "ocache": "^0.3.0", "srvx": "^1.0.5", "unstorage": "^2.0.0-alpha.10" }, "bin": { "nitro": "dist/cli/index.mjs" } }, "sha512-wb/kqMTUYF/67czYmU246IcNN+Hkd35z7taLSAFbfkWMb4WZH3pvniAviCNrrwPUd9vaZmg+sO/6resFEoG7NQ=="],
+    "nitro": ["nitro-nightly@3.0.1-20261006-045005-6bb682ef", "", { "dependencies": { "consola": "^3.4.2", "crossws": "^0.4.12", "db0": "^0.4.1", "env-runner": "^0.3.3", "h3": "^2.0.1", "nf3": "^0.4.0", "ocache": "^0.3.0", "srvx": "^1.0.5", "unstorage": "^2.0.0-alpha.10" }, "bin": { "nitro": "dist/cli/index.mjs" } }, "sha512-sXBpMm6e1zCPjOzsIvomss6gwn42CxHKoKQ+EmxruP9cCaQ3Zt/XIClAibTs56QwUIbkM9Mw3Hph4XVHaV0CXg=="],
 
     "node-releases": ["node-releases@2.0.27", "", {}, "sha512-nmh3lCkYZ3grZvqcCH+fjmQ7X+H0OeZgP40OierEaAptX4XofMh5kwNbWh7lBduUzCcV/8kZ+NDLCwm2iorIlA=="],
 
