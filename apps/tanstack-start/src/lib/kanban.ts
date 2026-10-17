@@ -52,7 +52,7 @@ interface CreateTaskInput {
 }
 
 export const createTask = createServerFn({ method: "POST" })
-  .inputValidator((data: CreateTaskInput) => data)
+  .validator((data: CreateTaskInput) => data)
   .handler(async ({ data: input }) => {
     const kanbanData = await readData();
     const now = new Date().toISOString();
@@ -77,7 +77,7 @@ interface UpdateStatusInput {
 }
 
 export const updateTaskStatus = createServerFn({ method: "POST" })
-  .inputValidator((data: UpdateStatusInput) => data)
+  .validator((data: UpdateStatusInput) => data)
   .handler(async ({ data: input }) => {
     const kanbanData = await readData();
     const taskIndex = kanbanData.tasks.findIndex((t) => t.id === input.id);
@@ -100,7 +100,7 @@ interface UpdateTaskInput {
 }
 
 export const updateTask = createServerFn({ method: "POST" })
-  .inputValidator((data: UpdateTaskInput) => data)
+  .validator((data: UpdateTaskInput) => data)
   .handler(async ({ data: input }) => {
     const kanbanData = await readData();
     const taskIndex = kanbanData.tasks.findIndex((t) => t.id === input.id);
@@ -122,7 +122,7 @@ export const updateTask = createServerFn({ method: "POST" })
   });
 
 export const deleteTask = createServerFn({ method: "POST" })
-  .inputValidator((data: string) => data)
+  .validator((data: string) => data)
   .handler(async ({ data: id }) => {
     const kanbanData = await readData();
     kanbanData.tasks = kanbanData.tasks.filter((t) => t.id !== id);
